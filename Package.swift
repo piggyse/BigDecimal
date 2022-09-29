@@ -8,17 +8,16 @@ let package = Package(
     products: [
         .library(
             name: "BigDecimal",
-            targets: ["BigDecimal"]),
+            targets: ["BigDecimal"])
     ],
     dependencies: [
-        .package(url: "https://github.com/mkrd/Swift-BigInt.git", branch: "master")
     ],
     targets: [
         .target(
             name: "BigDecimal",
-            dependencies: [.product(name: "BigNumber", package: "Swift-BigInt")]),
+            dependencies: []),
         .testTarget(
             name: "BigDecimalTests",
-            dependencies: ["BigDecimal"]),
+            dependencies: ["BigDecimal"])
     ]
 )
