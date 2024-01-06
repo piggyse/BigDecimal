@@ -1,8 +1,9 @@
 # BigDecimal
 
-## 스위프트 패키지 매니저
+### Big Number를 위한 SPM
 
-### Big Number를 위한 스위프트 패키지
+### 요약
+[BigInt](https://github.com/attaswift/BigInt)와 [BDouble](https://github.com/mkrd/Swift-BigInt)를 함께 사용하기 위해 만든 통합 SPM
 
 ### 자료
 https://github.com/attaswift/BigInt
